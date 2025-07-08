@@ -23,12 +23,12 @@ function Hero() {
               position={[0, 0, -10]}
               scale={[-0.5, 0.5, 0.5]}
               ref={ref}
-              font={"/Rounded Mplus 1c_Regular.json"}
+              font={"fonts/RoundedMplus1c_Regular.json"}
               height={0.5}
             >
-              {`Sorry, Flowzeal is
-under maintenance during 
-2025/07/06 18:00~19:30 JST 
+              {`We apologize for the inconvenience.
+Flowzeal is undergoing maintenance on 
+6 July 2025 from 18:00 to 19:30 JST
 
 申し訳ありません。
 下記の時間はメンテナンス中です。
@@ -56,10 +56,10 @@ function App() {
         />
         <Suspense fallback={"Loading"}>
             <Sparkles
-                size={10}
+                size={50}
                 scale={[50, 50, 50]}
                 position={[0, 0, -10]}
-                speed={0.5}
+                speed={2}
                 count={1000}
                 opacity={0.5}/>
           <Hero />
